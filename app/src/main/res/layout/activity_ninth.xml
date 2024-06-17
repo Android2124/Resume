@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECECEC"
+    android:gravity="center"
+    tools:context=".NinthActivity">
+    
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="420dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="420dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#EBCBBB"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:layout_marginStart="120dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="13dp"/>
+
+                    <TextView
+                        android:id="@+id/txtjobtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job title"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:orientation="vertical"
+                    android:background="#6C999A">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="31dp"
+                        android:src="@drawable/profile1"
+                        app:tint="@color/white" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Me :"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtemail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skill : "
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtSkill1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skill"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"/>
+                    <TextView
+                        android:id="@+id/txtSkill2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skill"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/rightarrow"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="110dp"
+                    app:tint="#538081" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Education :"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtsname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtedegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Degreee"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="145dp"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtfos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="160dp"
+                    android:textSize="10dp"
+                    android:text="Passing Year"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/rightarrow"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="190dp"
+                    app:tint="#538081" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="190dp"
+                    android:text="Experience :"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtcname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="210dp"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txteyear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="225dp"
+                    android:text="Degreee"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtPosition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="240dp"
+                    android:textSize="10dp"
+                    android:text="Passing Year"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/rightarrow"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="270dp"
+                    app:tint="#538081" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="270dp"
+                    android:text="Hobby :"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtHobby1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="290dp"
+                    android:text="Hobby"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtHobby2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hobby"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="305dp"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtHobby3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="320dp"
+                    android:textSize="10dp"
+                    android:text="Hobby"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/rightarrow"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="350dp"
+                    app:tint="#538081" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="350dp"
+                    android:text="Project :"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="370dp"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtRol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rol"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="385dp"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/txtCname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="400dp"
+                    android:textSize="10dp"
+                    android:text="Company Name"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

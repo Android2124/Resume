@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,148 +7,273 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".EightActivity">
-
+    
     <LinearLayout
-        android:layout_width="310dp"
-        android:layout_height="420dp"
-        android:background="#D5D4D4">
-
-
-    <LinearLayout
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#404040"
+        android:gravity="center"
+        android:background="#ECECEC"
         android:orientation="vertical">
 
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Templates"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Your template to make your resume"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="#DCAA15"
+            android:id="@+id/template1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginLeft="23dp"
+            android:orientation="vertical"
             android:layout_marginTop="20dp">
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="140dp"
-            android:layout_height="90dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Personal Information:"
-                android:textColor="@color/black"
-                android:background="@drawable/round" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Email : "
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Address : "
-                android:textColor="#DCAA15" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Contact : "
-                android:textColor="#DCAA15"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Education"
-                android:background="@drawable/round"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="H.S.C"
-                android:textColor="#DCAA15"
-                android:layout_marginTop="3dp"
-                android:gravity="center"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="year :"
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Name :"
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="percentage :"
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Collage"
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="350dp"
                 android:gravity="center"
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Year : "
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Collage Name :"
-                android:textColor="#DCAA15"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Grade : "
-                android:textColor="#DCAA15"/>
+                android:orientation="vertical"
+                android:background="#ffffff">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#EBCBBB">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:background="#6C999A">
+
+                        <ImageView
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="27dp"
+                            android:src="@drawable/profile1"
+                            app:tint="@color/white" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
+        
         <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
+            android:id="@+id/template2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginRight="10dp">
-            
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"/>
-            
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+            android:gravity="center"
+            android:layout_marginTop="15dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"/>
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="350dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="#ffffff">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#45B2B4">
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/btn_template"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/profile1"
+                            app:tint="#45B1B3"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="310dp"-->
+<!--        android:layout_height="420dp"-->
+<!--        android:background="#D5D4D4">-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#404040"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:background="#DCAA15"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="23dp"-->
+<!--            android:layout_marginTop="20dp">-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="90dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Personal Information:"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:background="@drawable/round" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:text="Email : "-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:text="Address : "-->
+<!--                android:textColor="#DCAA15" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:text="Contact : "-->
+<!--                android:textColor="#DCAA15"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="Education"-->
+<!--                android:background="@drawable/round"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="H.S.C"-->
+<!--                android:textColor="#DCAA15"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:gravity="center"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="year :"-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Name :"-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="percentage :"-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Collage"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Year : "-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Collage Name :"-->
+<!--                android:textColor="#DCAA15"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Grade : "-->
+<!--                android:textColor="#DCAA15"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginRight="10dp">-->
+<!--            -->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"/>-->
+<!--            -->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+</ScrollView>

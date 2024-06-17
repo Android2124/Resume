@@ -37,6 +37,7 @@
             android:id="@+id/edtpname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:background="@null" />
 
     </LinearLayout>
@@ -61,6 +62,7 @@
             android:id="@+id/edtroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:background="@null" />
 
     </LinearLayout>
@@ -85,6 +87,7 @@
             android:id="@+id/edtcname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:background="@null" />
 
     </LinearLayout>
@@ -109,6 +112,7 @@
             android:id="@+id/edtlocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:background="@null" />
 
     </LinearLayout>
